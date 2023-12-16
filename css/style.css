@@ -1,0 +1,90 @@
+/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600;1,700&display=swap');
+body, h1, h2, h3, p, label {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    
+    /* background-color: #FF9636; */
+    min-height: 100vh;
+    background-image: url('../assets/im1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    /* background-color: #fff; */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Navigation bar style */
+nav {
+    /* background-color: #333; */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.4rem;
+}
+
+/* Profile form styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}
+
+/* Responsive layout adjustments */
+@media (max-width: 768px) {
+    .container {
+        margin-top: 30px;
+    }
+}
