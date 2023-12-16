@@ -28,8 +28,3 @@ This project implements a user authentication system using PHP, HTML, CSS, and J
 - **Software:**
   - Visual Studio Code
 
-## Getting Started
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/login-signup-project.git
